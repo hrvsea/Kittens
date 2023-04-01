@@ -1,0 +1,22 @@
+local msg1 = "Rejoin and re-execute the script."
+local msg2 = "KITTEN HUB - Error 352 please report this to the discord server."
+local msg3 = "You have been banned for using Exploits. Please contact spooky in the discord server for help."
+local msg4 = "APRIL FOOLS LOL"
+
+local randommsg = math.random(1, 4)
+
+if randommsg == 1 then
+    game.Players.LocalPlayer:Kick(msg1)
+end
+
+if randommsg == 2 then
+    game.Players.LocalPlayer:Kick(msg2)
+end
+
+if randommsg == 3 then
+    game.Players.LocalPlayer:Kick(msg3)
+end
+
+if randommsg == 4 then
+    game.Players.LocalPlayer:Kick(msg4)
+end
